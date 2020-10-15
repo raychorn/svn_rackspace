@@ -1,0 +1,2 @@
+#!/bin/bash
+while true ; do cd /home/core/maintcal/maintcal && svn up && svn st && ./tests/caltest.py ; sleep 10 ; done # Just Another CI Hacker

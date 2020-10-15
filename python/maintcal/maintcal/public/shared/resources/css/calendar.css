@@ -1,0 +1,195 @@
+table.timeline {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.timeline_row div {
+	font-size: 9px;
+	text-align: center;
+}
+
+table.day-grid {
+    width : 100%;
+}
+
+td.grid-row {
+    height: 20px;
+    border-bottom: 1px solid #666666;
+}
+
+.header-back-bt {
+    float : left;
+    margin-left : 10px;
+}
+
+.period_empty_disabled  .x-panel-body-noheader
+{
+    padding: 10px;
+    background-color: #CCCCCC;
+}
+.period_empty_disabled
+{
+    font-size: 80%;
+    background-color: #CCCCCC;
+}
+.period_normal_disabled  .x-panel-body-noheader
+{
+    font-size: 80%;
+    background-color: #CCCCCC;
+    padding: 10px;
+}
+.period_label_disabled
+{
+    font-size: 80%;
+	text-align: "center";
+	color: black;
+}
+.period_label_zero_disabled
+{
+    font-size: 80%;
+	text-align: "center";
+	color: black;
+	font-weight: bold;
+}
+
+.period_empty  .x-panel-body-noheader
+{
+    padding: 10px;
+    background-color: #FFCCCC;
+}
+.period_empty
+{
+    font-size: 80%;
+    background-color: red;
+}
+.period_normal  .x-panel-body-noheader
+{
+    font-size: 80%;
+    background-color: lightgreen;
+    padding: 10px;
+}
+.period_label
+{
+    font-size: 80%;
+	text-align: "center";
+	color: black;
+}
+.period_label_zero
+{
+    font-size: 80%;
+	text-align: "center";
+	color: red;
+	font-weight: bold;
+}
+.period_comment
+{
+	color: blue;
+	font-style: italic;
+	font-weight: normal;
+}
+
+#basic, #animated {
+    border: 2px solid #FF9999;
+    color:#0000FF;
+    background: #FFFF88;
+    font-weight:bold;
+    font-size: 200%;
+    font-family: sans-serif;
+    text-align:center;
+    align: center;
+    padding-top: 30px;
+}
+
+#snap {
+    border:1px solid #c3daf9;
+    overflow:hidden;
+}
+
+#custom {
+    cursor:move;
+}
+
+#custom-rzwrap{
+    z-index: 100;
+}
+
+#custom-rzwrap .x-resizable-handle{
+    width:11px;
+    height:11px;
+    background:transparent url(../../resources/images/default/sizer/square.gif) no-repeat;
+    margin:0px;
+}
+
+#custom-rzwrap .x-resizable-handle-east, #custom-rzwrap .x-resizable-handle-west{
+    top:45%;
+}
+
+#custom-rzwrap .x-resizable-handle-north, #custom-rzwrap .x-resizable-handle-south{
+    left:45%;
+}
+
+.weekview-cell-service-count-0 {
+    background-color: #FFFFFF;
+}
+
+.weekview-cell-service-count-1 {
+    background-color: #FFFF00;
+}
+
+.weekview-cell-service-count-2 {
+    background-color: #FFCC00;
+}
+
+.weekview-cell-service-count-3 {
+    background-color: #FF9900;
+}
+
+.weekview-cell-service-count-4 {
+    background-color: #FF6600;
+}
+
+.weekview-cell-service-count-5 {
+    background-color: #FF3300;
+}
+
+.weekview-cell-service-count-6 {
+    background-color: #FF0000;
+}
+.mc-weekview-row td div {
+    white-space: nowrap;
+    overflow: hidden;
+    height: 20px;
+    font-size: 8px;
+}
+.mc-weekview-row {
+    line-height: 20px;
+}
+.mc-timeline-cell {
+    font-size: 10px;
+    text-align: right;
+}
+.mc-weekview-previous a {
+    position: relative;
+    clear: both;
+    width: 16px;
+    height: 17px;
+    background:transparent url(shared/resources/images/left-btn.gif) no-repeat center center;
+}
+.mc-weekview-next a {
+    background-image: url(shared/right-btn.gif);
+    margin-right: 2px;
+    text-decoration: none!important;
+}
+.mc-weekview-header {
+    font-weight: bold;
+}
+.mc-calendar-view-selector {
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    line-height: 14px;
+}
+
+.x-grid3-row {
+    overflow: hidden;
+}

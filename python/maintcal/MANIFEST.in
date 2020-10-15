@@ -1,0 +1,2 @@
+recursive-include maintcal/public *
+recursive-include maintcal/templates *

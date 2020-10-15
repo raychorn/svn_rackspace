@@ -1,0 +1,390 @@
+body{
+    background:url('/maintcal/shared/resources/images/splash.jpg') top center no-repeat;
+}
+#msg-div{
+    font-family: tahoma,arial,verdana,sans-serif;
+    text-align: center;
+}
+table.mc-ti{
+    font: normal 12px tahoma,arial,verdana,sans-serif;
+    border:1px solid gray;
+    table-layout:fixed;
+    background-color:#FFFFFF;
+    width:100%;
+}
+td.mc-ti-heading{
+    vertical-align: top;
+    background-color:gray;
+    font-weight:bold;
+    padding: 4px;
+    border:1px solid gray;
+    width:80px;
+}
+td.mc-ti-data{
+    padding: 4px;
+}
+table.mc-maint{
+    font: normal 12px tahoma,arial,verdana,sans-serif;
+    border:1px solid gray;
+    table-layout:fixed;
+    background-color:#FFFFFF;
+    width:100%;
+}
+td.mc-maint-heading{
+    vertical-align: top;
+    background-color:gray;
+    font-weight:bold;
+    padding: 4px;
+    border:1px solid gray;
+    width:90px;
+}
+td.mc-maint-data{
+    padding: 4px;
+    overflow: 
+}
+table.mc-maint + table.mc-maint {
+    margin-top: 5px;
+}
+img.mc-maint-heading-buttonUp{
+    position:relative;
+    left:10px;
+    height:9px;
+    width: 9px;
+}
+img.mc-maint-heading-buttonDown{
+    position:relative;
+    left:10px;
+    height:9px;
+    width: 9px;
+}
+img.mc-ti-heading-buttonUp{
+    position:relative;
+    left:10px;
+    height:9px;
+    width: 9px;
+}
+img.mc-ti-heading-buttonDown{
+    position:relative;
+    left:10px;
+    height:9px;
+    width: 9px;
+}
+.mc-heading-body {
+    background-color: #224158;
+    //background: url(/maintcal/shared/resources/images/mc-heading.gif) repeat-x 0 0;
+}
+.mc-heading .x-panel-body{
+    background-color: #122958;
+    //background: url(/maintcal/shared/resources/images/mc-heading.gif) repeat-x 0 0;
+}
+
+.mc-heading span {
+    line-height: 18px;
+    font: normal 18px arial,verdana,tahoma,sans-serif;
+    color:#FFFFFF;
+}
+/*.mc-heading div.x-form-field-wrap{
+    display:inline;
+}*/
+.mc-selector-container {
+    position: relative;
+    top: 20px;
+    left: 344px;
+}
+.mc-selector-container span{
+    position:relative;
+    line-height: 18px;
+    font: normal 18px arial,verdana,tahoma,sans-serif;
+    color:#FFFFFF;
+}
+.mc-heading-body table.x-btn{
+    clear:left;
+    position:relative;
+    margin-left:3px;
+    top:20px;
+}
+.mc-blocktime-example{
+    color:#a1a1a1;
+    position:relative;
+    top:-22px;
+    left:130px;
+}
+.mc-blocktime-label{
+    color:#a1a1a1;
+    position:relative;
+    left:10px;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+.mcSV-title-flush-left{
+    font: normal 20px arial,verdana,tahoma,sans-serif;
+    color:#FFFFFF;
+    float:left;
+    padding-top:0px;
+    padding-left: 5px;
+}
+.mc-heading-body span.mcSV-ticket-title{
+    top: -10px;
+    display:block;
+    padding-bottom: 5px;
+    padding-right: 6px;
+    float:right;
+    font: normal 12px arial,verdana,tahoma,sans-serif;
+    color:#FFFFFF;
+}
+.mc-heading-body span.mcSV-ticket-title a{
+    font: normal 12px arial,verdana,tahoma sans-serif;
+    color:#FFFFFF;
+}
+.mc-heading-body span.mcSV-account-title{
+    top: -10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    display:block;
+    clear:right;
+    float:right;
+    font: normal 12px arial,verdana,tahoma,sans-serif;
+    color:#FFFFFF;
+}
+.mc-heading-body span.mcSV-account-title a{
+    font: normal 12px arial,verdana,tahoma,sans-serif;
+    color:#FFFFFF;
+}
+.mc-SVSO-chkbox{
+    position:relative;
+    left:-85px;
+}
+.mc-blocktime-label{
+    color:#a1a1a1;
+    position:relative;
+    left:10px;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+.mc-bookings{
+    width:100%
+}
+table.mc-sv-tentative-text{
+    font: bold 12px arial,verdana,tahoma,sans-serif;
+}
+table.mc-sv-tentative-text span{
+    color:blue;
+}
+div.mc-sv-tentative-text{
+    font: bold 12px arial,verdana,tahoma,sans-serif;
+}
+div.mc-sv-tentative-text span{
+    color:blue;
+}
+span.mc-sv-tentative-ex{
+    color:red;
+}
+.mc-no-ticket-label{
+    text-align:center;
+}
+.mc-ticket-view-button{
+    overflow:hidden;
+    width:15px;
+    height:15px;
+    float:right;
+    cursor:pointer;
+    background:transparent url(/maintcal/shared/resources/images/maximize.gif) no-repeat center center;
+    margin-left:2px;
+}
+.mc-ticket-view-button-complete{
+    overflow:hidden;
+    width:15px;
+    height:15px;
+    float:right;
+    cursor:pointer;
+    background:transparent url(/maintcal/shared/resources/images/maximize-green.gif) no-repeat center center;
+    margin-left:2px;
+}
+.mc-ticket-view-button-cancel{
+    overflow:hidden;
+    width:15px;
+    height:15px;
+    float:right;
+    cursor:pointer;
+    background:transparent url(/maintcal/shared/resources/images/maximize-red.gif) no-repeat center center;
+    margin-left:2px;
+}
+.mc-tentative-msg{
+    padding-left:5px;
+    color:blue;
+    font: bold 10px arial,verdana,tahoma,sans-serif;
+}
+.mc-tz-change-button-schedule{
+    position: relative;
+    top: 5px;
+    overflow:hidden;
+    float:right;
+    cursor:pointer;
+    margin-top: 8px;
+}
+/*
+    background:transparent url(/maintcal/shared/resources/images/tz_button.gif) no-repeat center center;
+    width:16px;
+    height:17px;
+    margin-right:4px;
+    margin-top: 10px;
+*/
+
+.mc-button-container{
+    position: relative;
+    float:right;
+    top: 6px;
+    width: 120px;
+    padding-right: 6px;
+}
+.mc-button-container span{
+    position:relative;
+    color:#FFFFFF;
+}
+.mc-tz-change-button{
+    font: normal 12px arial,verdana,tahoma,sans-serif;
+    position: relative;
+    margin-right: 6px;
+    /*top: -10px;
+    float: right;*/
+}
+/*
+    background:transparent url(/maintcal/shared/resources/images/tz_button.gif) no-repeat center center;
+    width:16px;
+    height:17px;
+    left: 35px;
+*/
+.mc-view-change-button{
+    font: normal 12px arial,verdana,tahoma,sans-serif;
+    overflow:hidden;
+    clear: both;
+    width: 86px;
+    height:20px;
+    margin-top: 6px;
+}
+
+.mc-help{
+    position: relative;
+    top: -17px;
+    width:16px;
+    height:17px;
+    float: right;
+    cursor: pointer;
+    background: transparent url(/maintcal/shared/resources/images/help.gif) no-repeat center center;
+    margin-right:4px;
+}
+div#mv-tckt-label{
+    padding-right: 6px;
+    clear: right;
+    float:right;
+    font: normal 12px arial,verdana,tahoma,sans-serif;
+    color:#FFFFFF;
+}
+div#mv-tckt-label a{
+    font: normal 12px arial,verdana,tahoma,sans-serif;
+    color:#FFFFFF;
+}
+div#mv-acct-label{
+    padding-right: 5px;
+    display:block;
+    clear:right;
+    float:right;
+    font: normal 12px arial,verdana,tahoma,sans-serif;
+    color:#FFFFFF;
+    margin-right:15px;
+}
+div#mv-acct-label a{
+    font: normal 12px arial,verdana,tahoma,sans-serif;
+    color:#FFFFFF;
+}
+
+.mc-accordion-hd-complete {
+    background:transparent url(/maintcal/shared/resources/images/lt-green-hd.gif) repeat-x scroll 0pt -9px;
+    border-top:0pt none;
+    color:#222222;
+    font-weight:normal;
+    padding-bottom:3px;
+    padding-top:4px;
+}
+
+.mc-panel-header-complete {
+    background:transparent url(../images/default/panel/white-top-bottom.gif) repeat-x scroll 0pt -1px;
+    border:1px solid #9AE8BF;
+    color:#158B52;
+    font-family:tahoma,arial,verdana,sans-serif;
+    font-size:11px;
+    font-size-adjust:none;
+    font-stretch:normal;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bold;
+    line-height:15px;
+    overflow:hidden;
+    padding:5px 3px 4px 5px;
+}
+
+.mc-tool-complete {
+    background:transparent url(/maintcal/shared/resources/images/tool-sprites-green.gif) no-repeat scroll 0%;
+    cursor:pointer;
+    float:right;
+    height:15px;
+    margin-left:2px;
+    overflow:hidden;
+    width:15px;
+}
+.mc-accordion-hd-cancel {
+    background:transparent url(/maintcal/shared/resources/images/lt-red-hd.gif) repeat-x scroll 0pt -9px;
+    border-top:0pt none;
+    color:#222222;
+    font-weight:normal;
+    padding-bottom:3px;
+    padding-top:4px;
+}
+
+.mc-panel-header-cancel {
+    background:transparent url(../images/default/panel/white-top-bottom.gif) repeat-x scroll 0pt -1px;
+    border:1px solid #E89AC4;
+    color:#8B154F;
+    font-family:tahoma,arial,verdana,sans-serif;
+    font-size:11px;
+    font-size-adjust:none;
+    font-stretch:normal;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bold;
+    line-height:15px;
+    overflow:hidden;
+    padding:5px 3px 4px 5px;
+}
+
+.mc-tool-cancel {
+    background:transparent url(/maintcal/shared/resources/images/tool-sprites-red.gif) no-repeat scroll 0%;
+    cursor:pointer;
+    float:right;
+    height:15px;
+    margin-left:2px;
+    overflow:hidden;
+    width:15px;
+}
+/* Ext fixes for Firefox 3 and webkit ? */
+.x-grid3 table {
+    table-layout:fixed;
+}
+.ext-el-mask {
+    z-index:8000;
+}
+
+.ext-el-mask-msg {
+    z-index:8001;
+}
+
+.x-grid3-row td,.x-grid3-summary-row td {
+    -khtml-user-select: text!important;
+    -moz-user-select: text!important;
+}
+
+.x-grid3-cell-inner,.x-grid3-hd-inner {
+    overflow: visible!important;
+}
+
+

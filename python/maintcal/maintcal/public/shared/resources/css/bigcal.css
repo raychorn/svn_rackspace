@@ -1,0 +1,364 @@
+/* Adapted from:
+ * Ext JS Library 2.0 Beta 1 date-picker.css
+ * Copyright(c) 2006-2007, Ext JS, LLC.
+ * licensing@extjs.com
+ * 
+ * http://extjs.com/license
+ * by Nathen Hinson, copyright 2007 redacted Managed Hosting
+ * 11-05-2007
+ */
+
+.mc-bigCal{
+    border: 1px solid #1b376c;
+    border-top:0 none;
+    background:#fff;
+	position:relative;
+}
+.mc-bigCal a {
+    -moz-outline:0 none;
+    outline:0 none;
+}
+.mc-bigCal-inner, .mc-bigCal-inner td, .mc-bigCal-inner th{
+    border-collapse:separate;
+}
+.mc-bigCal-middle,.mc-bigCal-left,.mc-bigCal-right {
+	background: url(../images/hd-sprite.gif) repeat-x 0 -83px;
+	color:#FFF;
+	font:bold 11px arial,verdana,tahoma,sans-serif;
+	overflow:hidden;
+}
+
+.mc-bigCal-middle .x-btn-left,.mc-bigCal-middle .x-btn-center,.mc-bigCal-middle .x-btn-right{
+	background:transparent !important;
+    vertical-align:middle;
+}
+.mc-bigCal-middle .x-btn .x-btn-text {
+    color:#fff;
+}
+.mc-bigCal-middle .x-btn-with-menu  .x-btn-center em {
+    background:transparent url(../images/btn-arrow-light.gif) no-repeat right 0;
+}
+.mc-bigCal-right, .mc-bigCal-left {
+    width:18px;
+}
+.mc-bigCal-right{
+    text-align:right;
+}
+.mc-bigCal-middle {
+    padding-top:2px;padding-bottom:2px;
+}
+.mc-bigCal-middle td{
+    width:200px;
+}
+.mc-bigCal-right a, .mc-bigCal-left a{
+    display:block;
+    width:16px;
+	height:16px;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor:pointer;
+    -moz-opacity: 0.6;
+    opacity:.6;
+    filter: alpha(opacity=60);
+}
+.mc-bigCal-right a:hover, .mc-bigCal-left a:hover{
+    -moz-opacity: 1;
+    opacity:1;
+    filter: alpha(opacity=100);
+}
+.mc-bigCal-right a {
+    background-image: url(../images/right-btn.gif);
+    margin-right:2px;
+    text-decoration:none !important;
+}
+.mc-bigCal-left a{
+	background-image: url(../images/left-btn.gif);
+    margin-left:2px;
+    text-decoration:none !important;
+}
+table.mc-bigCal-inner {
+    width:100%;
+    table-layout:fixed;
+}
+.mc-bigCal-inner th {
+    width:25px;
+}
+.mc-bigCal-inner th {
+    background: #dfecfb url(../images/glass-bg.gif) repeat-x left top;
+    text-align:right !important;
+    border-bottom: 1px solid #a3bad9;
+    font:normal 10px arial, verdana,tahoma,sans-serif;
+    font-weight:bold;
+    color:#233d6d;
+    cursor:default;
+    padding:0;
+    border-collapse:separate;
+}
+.mc-bigCal-inner th span {
+    display:block;
+    padding:6px;
+    padding-right:7px;
+    width:50px;
+}
+.mc-bigCal-inner td {
+    border: 1px solid #fff;
+    text-align:center;
+    padding:0;
+}
+.mc-bigCal-inner a {
+     padding:6px 15px;
+     display:block;
+     font:normal 48px arial,verdana,tahoma,sans-serif ;
+     font-weight:bolder;
+     line-height:56px;
+     text-decoration:none;
+     color:gray;
+     text-align:center;
+     cursor:default;
+     zoom:1;
+}
+.mc-bigCal-inner .mc-bigCal-active{
+	cursor:pointer;
+	color:black;
+}
+.mc-bigCal-inner .mc-bigCal-selected a{
+	background: #dfecfb url(../images/glass-bg.gif) repeat-x left top;
+   padding:1px 4px;
+}
+td.mc-bigCal-today{
+    border: 2px solid blue;
+}
+.mc-bigCal-inner .mc-bigCal-today a{
+    padding:1px 4px;
+}
+.mc-bigCal-inner .mc-bigCal-selected span{
+    font-weight:bold;
+}
+.mc-bigCal-inner .mc-bigCal-green {
+    background: url(../images/glass-bg-green.gif) repeat-x left top;
+    
+}
+.mc-bigCal-inner .mc-bigCal-green span{
+    font-weight:bold;
+    color: #8BCB8B;
+}
+.mc-bigCal-inner .mc-bigCal-yellow {
+    background: url(../images/glass-bg-yellow.gif) repeat-x left top;
+}
+.mc-bigCal-inner .mc-bigCal-yellow span{
+    font-weight:bold;
+    color: #CBCB8B; 
+}
+.mc-bigCal-inner .mc-bigCal-red {
+    background: url(../images/glass-bg-red.gif) repeat-x left top;
+}
+.mc-bigCal-inner .mc-bigCal-red span{
+    font-weight:bold;
+    color: #CB8B8B;
+}
+.mc-bigCal-inner .mc-bigCal-black {
+    background: url(../images/glass-bg-black.gif) repeat-x left top;
+}
+.mc-bigCal-inner .mc-bigCal-black span {
+    font-weight:bold;
+    color: #999999;
+}
+.mc-bigCal-inner .mc-bigCal-prevday a,.mc-bigCal-inner .mc-bigCal-nextday a {
+	color:#aaaaaa;
+    text-decoration:none !important;
+}
+
+.mc-bigCal-inner a:hover, .mc-bigCal-inner .mc-bigCal-disabled a:hover{
+    text-decoration:none !important;
+}
+
+.mc-bigCal-inner .mc-bigCal-disabled a {
+	cursor:default;
+	background-color:#eeeeee;
+	color:#a1a1a1;
+}
+.mc-bigCal-mmenu{
+    background:#eeeeee !important;
+}
+.mc-bigCal-mmenu .mc-menu-item {
+	font-size:10px;
+	padding:1px 24px 1px 4px;
+	white-space: nowrap;
+	color:#000;
+}
+.mc-bigCal-mmenu .mc-menu-item .mc-menu-item-icon {
+    width:10px;height:10px;margin-right:5px;
+    background-position:center -4px !important;
+}
+
+.mc-bigCal-mp {
+	position:absolute;
+	left:0;
+	top:0;
+	background:white;
+	display:none;
+}
+.mc-bigCal-mp td {
+    padding:2px;
+    font:normal 11px arial,verdana, tahoma,sans-serif;
+}
+td.mc-bigCal-mp-month,td.mc-bigCal-mp-year,td.mc-bigCal-mp-ybtn {
+    border: 0 none;
+    text-align:center;
+    vertical-align: middle;
+    width:25%;
+}
+.mc-bigCal-mp-ok {
+	margin-right:3px;
+}
+.mc-bigCal-mp-btns button {
+	text-decoration:none;
+	text-align:center;
+	text-decoration:none !important;
+	background:#083772;
+	color:white;
+	border:1px solid;
+	border-color: #3366cc #000055 #000055 #3366cc;
+	padding:1px 3px 1px;
+	font:normal 11px arial,verdana,tahoma,sans-serif;
+	cursor:pointer;
+}
+.mc-bigCal-mp-btns {
+	background: #dfecfb url(../images/glass-bg.gif) repeat-x left top;
+}
+.mc-bigCal-mp-btns td {
+	border-top: 1px solid #c5d2df;
+   text-align:center;
+}
+td.mc-bigCal-mp-month a,td.mc-bigCal-mp-year a {
+	display:block;
+        font:normal 11px arial,verdana,tahoma,sans-serif;
+	padding:2px 4px;
+	text-decoration:none;
+	text-align:center;
+	color:#15428b;
+}
+
+td.mc-bigCal-mp-month a:hover,td.mc-bigCal-mp-year a:hover {
+	color:#15428b;
+	text-decoration:none;
+	cursor:pointer;
+	background: #ddecfe;
+}
+
+td.mc-bigCal-mp-sel a {
+	padding:1px 3px;
+	background: #dfecfb url(../images/glass-bg.gif) repeat-x left top;
+	border:1px solid #8db2e3;
+}
+.mc-bigCal-mp-ybtn a {
+    overflow:hidden;
+    width:15px;
+    height:15px;
+    cursor:pointer;
+    background:transparent url(../images/tool-sprites.gif) no-repeat;
+    display:block;
+    margin:0 auto;
+}
+.mc-bigCal-mp-ybtn a.mc-bigCal-mp-next {
+    background-position:0 -120px;
+}
+.mc-bigCal-mp-ybtn a.mc-bigCal-mp-next:hover {
+    background-position:-15px -120px;
+}
+.mc-bigCal-mp-ybtn a.mc-bigCal-mp-prev {
+    background-position:0 -105px;
+}
+.mc-bigCal-mp-ybtn a.mc-bigCal-mp-prev:hover {
+    background-position:-15px -105px;
+}
+.mc-bigCal-mp-ybtn {
+   text-align:center;
+}
+td.mc-bigCal-mp-sep {
+   border-right:1px solid #c5d2df;
+}
+.mc-bigCal-hdbtn{
+    border:0 none;
+    background:transparent;
+    font:normal 11px arial,verdana,tahoma,sans-serif;
+    color:#FFF;
+    padding:5px;
+    cursor:pointer;
+    margin:0;
+    overflow:visible;
+    width:auto;
+    -moz-outline:0 none;
+    outline:0 none;
+    white-space: nowrap;
+}
+.mc-bigCal-tz {
+	position:absolute;
+	left:0;
+	top:0;
+	background:white;
+	display:none;
+}
+.mc-bigCal-tz td {
+    padding:2px;
+	font:normal 11px arial,verdana,tahoma,sans-serif;
+}
+td.mc-bigCal-tz-month,td.mc-bigCal-tz-year{
+    border: 0 none;
+    font:normal 11px arial,verdana,tahoma,sans-serif;
+    text-align:center;
+    vertical-align: middle;
+    width:25%;
+}
+.mc-bigCal-tz-ok {
+	margin-right:3px;
+}
+.mc-bigCal-tz-btns button {
+	text-decoration:none;
+	text-align:center;
+	text-decoration:none !important;
+	background:#083772;
+	color:white;
+	border:1px solid;
+	border-color: #3366cc #000055 #000055 #3366cc;
+	padding:1px 3px 1px;
+	font:normal 11px arial,verdana,tahoma,sans-serif;
+	cursor:pointer;
+}
+.mc-bigCal-tz-btns {
+	background: #dfecfb url(../images/glass-bg.gif) repeat-x left top;
+}
+.mc-bigCal-tz-btns td {
+	border-top: 1px solid #c5d2df;
+        text-align:center;
+}
+div#mc-bigCal-noTZ-message{
+        font-size: 14px;
+        font-weight: bold;
+        display:none;
+        color:red;
+}
+div#mc-bigCal-invalid-message{
+        font-size: 14px;
+        font-weight: bold;
+        display:none;
+        color:red;
+}
+td.mc-bigCal-tz-month a,td.mc-bigCal-tz-year a {
+	display:block;
+	padding:2px 4px;
+	text-decoration:none;
+	text-align:center;
+	color:#15428b;
+}
+
+td.mc-bigCal-tz-month a:hover,td.mc-bigCal-tz-year a:hover {
+	color:#15428b;
+	text-decoration:none;
+	cursor:pointer;
+}
+td.mc-bigCal-tz-sel a {
+	padding:1px 3px;
+	background: #dfecfb url(../images/glass-bg.gif) repeat-x left top;
+	border:1px solid #8db2e3;
+}
